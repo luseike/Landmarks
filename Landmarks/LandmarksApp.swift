@@ -17,7 +17,7 @@ struct LandmarksApp: App {
         WindowGroup {
             
             /// put the model object in the environment when you run the app in the simulator or on a device
-            ContentView()
+            PickAPalContent()
                 .environment(modelData)
         }
     }
